@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tank Game</title>
+    <script src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
+    <style>
+        *{
+            margin: 0px;
+            background-color: black;
+        }
+
+        .principal{
+            display: flex;
+            justify-content: center;
+        }
+
+        canvas{
+            border: 1px solid white;
+        }
+    </style>
+</head>
+<body>
+    <div class="principal">
+        <canvas id="canvas" width="1200px" height="600px"></canvas>
+
+    </div>
+        <script src="scripts/eventListener.js"></script>
+        <script src="scripts/classes.js"></script>
+        <script src="scripts/index.js"></script>
+</body>
+</html>
